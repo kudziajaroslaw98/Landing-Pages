@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./App.css";
-import NavLink from "@components/header/nav-link";
-import Button from "@components/shared/button/button";
+import { NavLink } from "./components/header";
+import { Button } from "./components/shared";
 
 function App() {
   return (

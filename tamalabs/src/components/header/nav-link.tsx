@@ -5,12 +5,10 @@ interface NavLinkProps {
   label: string;
 }
 
-const NavLink = (props: NavLinkProps) => {
+export const NavLink = (props: NavLinkProps) => {
   return (
     <li className="">
       <a href={props.link}>{props.label}</a>
     </li>
   );
 };
-
-export default NavLink;
