@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-stroke-width {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1b826c40;
+}
+
+.hero-image {
+    background-image: linear-gradient(to right,#0a1414 0%, rgba(10,20,20,0.8) 5%,rgba(10,20,20,0.8) 95%,#0a1414 100%),url('images/hero-section3.jpg');
+    /*-webkit-mask-image: url('images/hero-section3.jpg'),linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 5% , rgba(0,0,0,1) 95%, rgba(0,0,0,0) 100%);*/
+}
+
+.check-mark-gradient{
+    /*bg-gradient-to-br from-[#26a188] from-15% via-[#076049] via-80% to-[#26a188] to-95%*/
+    background-image: linear-gradient(110deg, #26a188 0%, #076049 40%, #0a1414 60%, #0a1414 70%, #076049 90%, #26a188 100%);
+    background-clip: border-box;
+}
